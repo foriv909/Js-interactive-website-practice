@@ -1,0 +1,69 @@
+<!Doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8">
+    <link href="./css/reset.css" rel="stylesheet" media="all">
+    <link href="./css/style.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" 
+          href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+          crossorigin="anonymous"
+    >
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDyyNokov-B9bUdNMSbUysPQVqrMZS5gts&sensor=TRUE_OR_FALSE"></script>
+    <title>Practice Random quote machine</title>
+  </head>
+  <body>
+  <div translate="no" id="allBody_container">
+    <div class="quote-box-container">
+      <div class="quote-text">
+        <i class="fa fa-quote-left">
+        </i>
+        <span class="text">
+              
+        </span>
+      </div>
+      <div class="quote-author-container">
+        -
+        <span class="author-text">
+          
+        </span>
+      </div>
+      <div class="quote-buttons-container">
+        <a class="buttonhover" id="tweet-button" title="Tweet this quote!" target="_blank" 
+           href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=
+                  %22Listen%20to%20them.%20Children%20of%20the%20night.
+                  %20What%20music%20they%20make.%22%20Dracula"
+        >
+          <i class ="fab fa-twitter"></i>
+        </a>
+        <a class="buttonhover" id="tumblr-button" title="Tumblr this quote!" target="_blank" 
+            href="https://www.tumblr.com/login?redirect_to=https%3A%2F%2Fwww.tumblr
+                 .com%2Fwidgets%2Fshare%2Ftool%3Fposttype%3Dquote%26tags%3Dquotes%252C
+                 freecodecamp%26caption%3DPaul%2BErdos%26content%3DProblems%2Bworthy%2
+                 Bof%2Battack%2Bprove%2Btheir%2Bworth%2Bby%2Bfighting%2Bback.%26canoni
+                 calUrl%3Dhttps%253A%252F%252Fwww.tumblr.com%252Fbuttons%26shareSource
+                 %3Dtumblr_share_button"
+        >
+          <i class="fab fa-tumblr"></i>
+        </a>
+        <button class="button buttonhover" 
+                id="changeColor"> 
+                New quote
+        </button>
+      </div>
+    </div>
+    <div class="footer-container">
+        by 
+        <a class="footer-codepen" href="#">Duncan</a>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script 
+            src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" 
+            integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" 
+            crossorigin="anonymous"
+        >
+        </script>
+        <script src="js/script.js"></script>
+   </div>
+   </body>
+</html>

@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html,body{
+  height:100%;
+  margin:0;
+  font-weight:400;
+  font-family: 'Raleway', sans-serif;
+}
+
+#allBody_container{
+  background-color: #333;
+  color: #333;
+  height:100%;
+  text-align:center;
+  padding-top:8%;
+}
+
+.quote-box-container{
+  border-radius:3px;
+  background-color:#fff;
+  width:450px;
+  padding:40px 50px;
+  margin:0 auto;
+  display:inline-block;
+}
+
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+.fa-quote-left{
+  margin-right:0.4em;
+  font-size:0.4em;
+}
+.quote-text{
+  text-align:center;
+  width:450px;
+  height:auto;
+  font-weight:500;
+  font-size:1.75em;
+  clear:both;
+}
+
+.fa-quote-left{
+  content: "\f10d";
+}
+
+.quote-author-container{
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.quote-buttons-container{
+   width: 450px;
+   margin: auto;
+  display: block;
+} 
+
+.fa-twitter::before {
+  content: "\f099";
+  color:#fff;
+}
+
+#tweet-button{
+  background-color: #333;
+  float: left;
+  border-radius:3px;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  margin-top:30px;
+  height: 30px;
+  width: 40px;
+}
+
+.fa-tumblr:before {
+  content: "\f173";
+  color:#fff;
+}
+
+#tumblr-button{
+  background-color: #333;
+  float: left;
+  border-radius:3px;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  margin-top:30px;
+  height: 30px;
+  width: 40px;
+}
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  transform: translate(0, 0);
+}
+
+.buttonhover:hover{
+  opacity: 0.9;
+}
+
+.button{
+  float:right;
+  background-color: #333;
+  color:#fff;
+  height:38px;
+  border:none;
+  border-radius:3px;
+  font-size:0.85em;
+  padding:8px 18px 6px 18px;
+  margin-top:30px;
+  cursor: pointer;
+}
+
+.footer-container{
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.footer-codepen{
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
